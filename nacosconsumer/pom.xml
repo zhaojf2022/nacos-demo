@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>cn.zhaojf.demo</groupId>
+        <artifactId>nacosdemo</artifactId>
+        <version>0.1</version>
+    </parent>
+
+    <artifactId>nacosconsumer</artifactId>
+    <version>0.1</version>
+    <name>nacosconsumer</name>
+    <description>nacos consumer</description>
+
+    <properties>
+
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>nacos-discovery-spring-boot-starter</artifactId>
+            <version>${nacos.springboot.version}</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

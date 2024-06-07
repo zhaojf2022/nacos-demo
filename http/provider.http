@@ -1,0 +1,12 @@
+### 测试接口
+GET http://localhost:10461/test
+Content-Type: application/json
+
+###
+GET http://localhost:10461/sayhi/hello
+Content-Type: application/json
+
+###
+http://localhost:10461/getService?serviceName=nacos-provider
+Content-Type: application/json
+

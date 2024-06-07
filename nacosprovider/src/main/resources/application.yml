@@ -1,0 +1,13 @@
+server:
+  port: 10461
+spring:
+  application:
+    name: nacos-provider
+nacos:
+  discovery:
+    server-addr: localhost:8848
+    username: nacos
+    password: nacos
+    namespace: public
+    auto-register: true
+

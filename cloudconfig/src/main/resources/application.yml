@@ -1,0 +1,14 @@
+server:
+  port: 10465
+spring:
+  application:
+    name: cloudconfig
+  config:
+    import: nacos:cloudconfig.yaml
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        username: nacos
+        password: nacos
+        refresh-enabled: true

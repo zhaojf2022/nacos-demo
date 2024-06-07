@@ -1,0 +1,7 @@
+### 测试接口
+GET http://localhost:10465/test
+Content-Type: application/json
+
+###
+GET http://localhost:10465/getConfig
+Content-Type: application/json
